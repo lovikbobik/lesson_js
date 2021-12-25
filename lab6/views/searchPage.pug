@@ -6,10 +6,13 @@ html(lang="en")
         h2.header Search
         block content
             table
-                each post in post_
-                    lu.containerTweet
-                        li Name - #{post.name}
-                        li Username - #{post.username}
-                        li text - #{post.text}
-                        li likes - #{post.likes}
-                        img.tweet(src=post.image)
+                if !post_
+                    h2.header Нет совпадений
+                else
+                    each post in post_
+                        lu.containerTweet
+                            li Name - #{post.name}
+                            li Username - #{post.username}
+                            li text - #{post.text}
+                            li likes - #{post.likes}
+                            img.tweet(src=post.image)

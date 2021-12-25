@@ -4,17 +4,19 @@ import tweet from '../data/tweetItems.js';
 const urlencodedParser = express.urlencoded({extended: false});
 const searchRoute = express.Router();
 
-searchRoute.post('/', urlencodedParser, (req, res) => {
-        const post = tweet.filter(item => item.text.includes(req.body))
-        if (post.length === 0) {
-            res.send("<h2>Не найдено совпадений</h2>");
-        } else {
-            let all_posts = "";
-            for (let item of post) {
-                all_posts += item;
-            }
-            res.send(all_posts);
-        }
+searchRoute.get('/', urlencodedParser, (req, res) => {
+        let queries = req.query;
+        let post;
+
+        if (queries['text'])
+            post = tweet.filter(item => item.text.includes(queries['text']));
+
+        if (queries['username'])
+            post = tweet.filter(item => item.username.includes(queries['username']));
+
+
+        res.render('searchPage', {post_: post});
     }
+
 )
-export default searchRoute;
+    export default searchRoute;
