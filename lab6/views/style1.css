@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    border: 3px solid #e09bfd;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+img{
+    width:80px;
+    height: 80px;
+    margin: 20px;
+}
+
+li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.container{
+    border: 3px solid #e09bfd;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    min-width: 600px;
+    max-width: 600px;
+    justify-content: space-around;
+    margin: 20px;
+}
+.containerInfo{
+    padding: 10px 20px 10px 20px;
+}
+
+.tweet{
+    width:150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.containerTweet{
+    border: 3px solid #e09bfd;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-width: 600px;
+    max-width: 600px;
+    justify-content: space-around;
+    margin: 20px;
+    font-size: 18px;
+}
+
+.header{
+    text-align: center;
+    font-size: 40px;
+    border-radius: 50px;
+    border: 3px solid #e09bfd;
+    padding: 20px;
+}

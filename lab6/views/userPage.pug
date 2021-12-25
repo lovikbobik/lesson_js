@@ -1,0 +1,15 @@
+html(lang="en")
+    head
+        style
+            include style1.css
+    body
+        h2.header User
+        block content
+            table
+                each user in user_
+                    lu.container
+                        .containerInfo
+                          li Name - #{user.name}
+                          li Username - #{user.username}
+                          li Age - #{user.age}
+                        img(src=user.avatar)

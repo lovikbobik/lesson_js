@@ -1,0 +1,21 @@
+html(lang="en")
+    head
+        style
+            include style1.css
+    body
+        block content
+            h1 Add tweet
+            form.containerTweet(method="POST")
+                label Your name
+                br
+                input(type="text" name="name" )
+                br
+                label Your username
+                br
+                input(type="text" name="username" )
+                br
+                label Text of tweet
+                br
+                input(type="text" name="text")
+                br
+                input(type="submit" value="Отправить")

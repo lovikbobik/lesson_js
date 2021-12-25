@@ -1,0 +1,14 @@
+html(lang="en")
+    head
+        style
+            include style1.css
+    body
+        h2.header Actual
+        block content
+                each post in trends
+                    lu.containerTweet
+                        li Name - #{post.name}
+                        li Username - #{post.username}
+                        li text - #{post.text}
+                        li likes - #{post.likes}
+                        img.tweet(src=post.image)
