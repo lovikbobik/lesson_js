@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "avatar": "ава",
+    "verified": true,
+    "username": "@имя",
+    "text": "текст1",
+    "image": "картинка1",
+    "countComments": "123",
+    "countLikes": "345",
+    "countRetweets": "678",
+    "isLiked": false
+  },
+  {
+    "id": 2,
+    "avatar": "ава2",
+    "verified": true,
+    "username": "@имя2",
+    "text": "текст2",
+    "image": "картинка2",
+    "countComments": "65757",
+    "countLikes": "896799",
+    "countRetweets": "56856567",
+    "isLiked": true
+  },
+  {
+    "id": 3,
+    "avatar": "ава3",
+    "verified": true,
+    "username": "@имя3",
+    "text": "«текст3",
+    "image": "нет",
+    "countComments": "28453764",
+    "countLikes": "3457935",
+    "countRetweets": "29356746",
+    "isLiked": false
+  },
+  {
+    "id": 4,
+    "avatar": "ава",
+    "verified": true,
+    "username": "@имя",
+    "text": "«текст4",
+    "image": "картинка4",
+    "countComments": "28453764",
+    "countLikes": "3457935",
+    "countRetweets": "29356746",
+    "isLiked": false
+  }
+]

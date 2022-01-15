@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "avatar": "avatar_1",
+    "verified": true,
+    "username": "@Misha2002",
+    "text": "description",
+    "image": "picture",
+    "countComments": "0",
+    "countLikes": "1",
+    "countRetweets": "5",
+    "isLiked": true
+  },
+  {
+    "id": 2,
+    "avatar": "avatar_2",
+    "verified": false,
+    "username": "@Leisha666",
+    "text": "text_2",
+    "image": "picture_2",
+    "countComments": "5",
+    "countLikes": "83",
+    "countRetweets": "57",
+    "isLiked": true
+  },
+  {
+    "id": 3,
+    "avatar": "avatar_3",
+    "verified": true,
+    "username": "@Gosh22",
+    "text": "text",
+    "image": "picture_3",
+    "countComments": "284",
+    "countLikes": "35",
+    "countRetweets": "746",
+    "isLiked": true
+  },
+  {
+    "id": 4,
+    "avatar": "avatar_4",
+    "verified": true,
+    "username": "@name",
+    "text": "text4",
+    "image": "picture_4",
+    "countComments": "24",
+    "countLikes": "3435",
+    "countRetweets": "2746",
+    "isLiked": false
+  }
+]
